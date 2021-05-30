@@ -8,7 +8,7 @@ pipeline {
     }
     environment{                       
         NEW_VERSION = '1.1.2'
-        SERVER_CREDENTIALS = credentials('my-github-credentials')  
+        SERVER_CREDENTIALS = credentials('fb64c639-8c19-4e80-9c1a-3a1c927fc20f')  
     }
     stages {
         stage('Build') {
